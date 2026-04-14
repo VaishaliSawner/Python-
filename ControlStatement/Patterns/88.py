@@ -1,0 +1,15 @@
+
+'''
+
+1
+123
+12345
+1234567
+123456789
+
+'''
+
+for i in range(6):
+    for j in range(1,2*i):
+        print(j,end="")
+    print()
