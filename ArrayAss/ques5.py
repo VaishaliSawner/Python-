@@ -1,6 +1,11 @@
-li=[10,30,40,25,5]
-print(li)
-for i in range(len(li)):
-    if li[i]%5==0:
-     li[i]=0
-print(li)
+
+#Replace muiltple of 5 with 0
+
+arr=[10,2,20,7]
+print("Old array",arr)
+
+for i in range(len(arr)):
+    if arr[i] %5 ==0:
+        arr[i]=0
+
+print("Updated array:",arr)

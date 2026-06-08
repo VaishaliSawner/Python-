@@ -1,9 +1,45 @@
-li=[10,30,40,50,60]
-print(li)
+# Insert element 
 
-val=int(input("Enter the value"))
-pos=int(input("Enter the position"))
+arr = [1, 2, 3, 4, 5]
+print(arr)
 
-li.insert(pos,val)
+pos = int(input("Enter position: "))
+val = int(input("Enter value: "))
 
-print(li)
+
+arr.append(0)
+
+
+for i in range(len(arr) - 1, pos, -1):
+    arr[i] = arr[i - 1]
+
+
+arr[pos] = val
+
+print("Array after insertion:", arr)
+
+
+
+
+
+
+'''
+arr = [10, 20, 30, 40, 50]
+
+pos = int(input("Enter position: "))
+element = int(input("Enter element: "))
+
+new_arr = []
+
+for i in range(len(arr) + 1):
+    if i < pos:
+        new_arr.append(arr[i])
+    elif i == pos:
+        new_arr.append(element)
+    else:
+        new_arr.append(arr[i-1])
+
+print("New array:", new_arr)
+
+'''
+

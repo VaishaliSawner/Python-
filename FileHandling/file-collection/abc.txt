@@ -1,0 +1,23 @@
+Python is a popular programming language, and it has several powerful features that make it easy to learn and widely used. Here are the main features explained clearly:
+
+1. Easy to Learn and Use
+
+Python has simple and readable syntax, almost like plain English. This makes it beginner-friendly.
+
+2. Interpreted Language
+
+You don’t need to compile Python code. It runs line by line, which makes debugging easier.
+
+3. Dynamically Typed
+
+You don’t have to declare variable types (like int, float, etc.). Python automatically handles it.
+
+x = 10      # integer
+x = "hello" # now it's a string
+4. Object-Oriented
+
+Python supports object-oriented programming (OOP), meaning you can use classes and objects.
+
+5. Platform Independent
+
+Python code can run on different operating systems (Windows, macOS, Linux) without changes.

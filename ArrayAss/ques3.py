@@ -1,12 +1,15 @@
-li=[10,20,40,50,60,70]
+# Sum of even even and odd 
 
-et=0
-ot=0
-for i in li:
-    if i%2==0:
-        et=et+i
+arr = [1,2,3,4,5,6]
+
+even_sum=0
+odd_sum=0
+
+for num in arr:
+    if num%2==0:
+        even_sum=even_sum+num
     else:
-        ot=ot+i
+        odd_sum=odd_sum+num
 
-print(et)
-print(ot)
+print("Even sum = ",even_sum)
+print("Odd sum=",odd_sum)

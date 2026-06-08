@@ -1,7 +1,8 @@
-li=[10,20,30,40]
-count=0
+# Sum of all element
 
-for i in li:
-    count=count+i
-    print(count)
-print("Total count is ",count)
+list = [10,20,30,40]
+sum=0
+for num in list:
+    sum=sum+num
+    print(sum)
+print("Total sum of element",sum)
